@@ -1,0 +1,379 @@
+
+.das-orders-container2 {
+  margin: 20px auto; 
+  max-width: 90%; 
+}
+
+
+.das-orders-table2 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px; 
+  border: 2px solid #d4a373; 
+  background-color: rgba(255, 255, 224, 0.9); 
+  transition: background-color 0.3s ease;
+}
+
+.das-orders-table2 th,
+.das-orders-table2 td {
+  border: 1px solid #f4c542; 
+  padding: 8px;
+  text-align: left;
+  background-color: #fffacd; 
+  color: #333; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.das-orders-table2 th {
+  background-color: #d4a373; 
+  color: white;
+}
+
+.das-orders-table2 tbody tr:hover {
+  background-color: #ffec8b; 
+  cursor: pointer;
+}
+
+
+.das-new-order-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f4c542; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.das-new-order-button .plus-icon {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.das-new-order-button:hover {
+  background-color: #ffec8b; 
+  transform: scale(1.05);
+}
+
+
+.das-form-popup2 {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fffacd; 
+  border: 2px solid #f4c542; 
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  margin-left: auto;
+  margin-right: auto; 
+  opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.das-form-popup2.show {
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+/* Form styling */
+.das-form2 h1 {
+  margin-bottom: 20px;
+  color: #333; 
+  text-align: center; 
+  font-size: 20px; 
+  border: none; 
+}
+
+.das-form-group2 {
+  margin-bottom: 15px;
+  color: black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.das-form-group2 label {
+  color: #333; 
+}
+
+.das-form-group2 input,
+.das-form-group2 select {
+  width: 80%; 
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid black; 
+  border-radius: 10px;
+  background-color: #fffaf0; 
+  color: #333;
+  transition: border-color 0.3s ease; 
+}
+
+.das-form-group2 input:focus,
+.das-form-group2 select:focus {
+  border-color: #f4c542; 
+}
+
+/* Submit button styling */
+.das-btn {
+  background-color: #f4c542; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 0 auto; /* Center submit button */
+}
+
+.das-btn:hover {
+  background-color: #ffec8b; 
+  transform: scale(1.05);
+}
+
+.das-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.das-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.das-close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.das-summary-button {
+  background-color: #f4c542;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.das-summary-button:hover {
+  background-color: #ffec8b;
+}
+
+.das-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin-bottom: 20px; 
+  
+}
+
+
+.das-search-input {
+  margin-right: 60px;
+  width: 100%;
+  max-width: 300px; 
+  padding: 10px;
+  padding-left: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.das-search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+  pointer-events: none; /* Prevent the icon from being clickable */
+}
+.das-date-picker-container {
+  margin: 20px 0;
+}
+
+.das-chart-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.das-h2 {
+  text-align: center;
+}
+
+.das-pie-chart-container {
+  width: 400px;  
+  height: 400px; 
+  margin: 0 auto;  
+}
+
+.das-order-summary-content {
+  max-width: 800px; 
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.das-order-summary-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.das-submit-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.das-submit-button:hover {
+  background-color: #45a049;
+}
+
+
+.das-view-summary-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.das-view-summary-button:hover {
+  background-color: #1E88E5;
+}
+.das-delete-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20%;
+}
+.das-update-button {
+  background-color: rgb(0, 181, 0);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20%;
+}
+.das-das-submit-button
+{background-color: #ce9e37; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 40%;
+
+}
+.das-bt-con
+{
+display: flex; /*  aligned in  row */
+gap: 100px; 
+
+}
+
+.das-close-summary-button {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.das-close-summary-button:hover {
+  background-color: #e04a4a;
+}
+
+.das-generate-report-button
+{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+ 
+}
+.das-search-input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  
+  border-radius: 10px;
+  background-color: #FFFFE0;
+  color: #4b2e05;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.das-sort-date
+{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  
+  border-radius: 10px;
+  background-color: #FFFFE0;
+  color: #4b2e05;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}

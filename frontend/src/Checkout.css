@@ -1,0 +1,191 @@
+.checkout{
+    background-image: url('./images/onlinebg.jpg');;
+    background-color: bisque;
+    /*background-color: rgb(250, 212, 218);*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+}
+
+.checkoutLayout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 90px;
+    color: #0e0a0a
+}
+
+
+.checkout-cartitemlist .cartItems{
+    color: black;
+
+}
+
+
+.checkoutLayout .right{
+    /*background-color: #5f4f06a9;*/
+   background-color: #c29013;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+}
+.checkoutLayout .right .form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-bottom: 1px solid #5f4f06a9;
+    padding-bottom: 20px;
+}
+.checkoutLayout .form h1,
+.checkoutLayout .form .group:nth-child(-n+3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.checkoutLayout .form input, 
+.checkoutLayout .form select
+{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 10px;
+    border:none;
+    background-color: #5f4f06a9;
+    color: #fff;
+}
+
+.checkoutLayout .right .return .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.checkoutLayout .right .return .row div:nth-child(2){
+    font-weight: bold;
+    font-size: x-large;
+}
+.buttonCheckout{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: ale(1.05);
+    background: #fac031;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+
+
+}
+.returnCart h1{
+    border-top: 1px solid #eee;  
+    padding: 20px 0;
+}
+.returnCart .list .item img{
+    height: 80px;
+}
+.returnCart .list .item{
+    display: grid;
+    grid-template-columns: 80px 1fr  50px 80px;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    box-shadow: 0 10px 20px #5555;
+    border-radius: 20px;
+}
+.returnCart .list .item .name,
+.returnCart .list .item .returnPrice{
+    font-size: large;
+    font-weight: bold;
+}
+
+.checkout-cartitemlist ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .checkout-cartitemlist li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+/*css new*/
+.item-info{
+    display: flex;
+}
+
+.item-info .item-info-name{
+    flex: 1;
+    margin-right: 10px;
+}
+.item-info .item-info-price{
+  
+    margin-right: 75px;
+}
+
+.returncart-btn{
+    background: #d39f1c;
+    color: rgb(12, 4, 4);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.row .pricelabel{
+    width: 400px;
+}
+ .price-tot{
+    margin-left: 20px;
+    
+}
+.row .pricelabel .label{
+   
+    font-size: large;
+    font-weight: bold; 
+    
+} 
+.checkout-cartitemlist h2{
+    font-size: 40px;
+    font-weight: bold; 
+    color: #ddd;
+    text-align: left;
+
+}
+.autofill{
+    border: none;         /* No border */
+    background: transparent; /* Transparent background */
+    color: inherit;         /* Inherit text color */
+    font-size: inherit;     /* Inherit font size */
+    outline: none;          /* No focus outline */
+    padding: 0;             /* Remove default padding */
+}
+
+.autofill:focus {
+    outline: none;          /* Ensure no focus outline */
+    box-shadow: none;       /* No shadow when focused */
+}
+.row .autofill-qty{
+    border: none;         /* No border */
+    background: transparent; /* Transparent background */
+    color: inherit;         /* Inherit text color */
+    font-size: inherit;     /* Inherit font size */
+    outline: none;          /* No focus outline */
+    padding: 0;             /* Remove default padding */
+    text-align: center;
+    margin-left: 0px;
+    padding-block: 0px;
+}
+
+.row .autofill-qty:focus {
+    outline: none;          /* Ensure no focus outline */
+    box-shadow: none;       /* No shadow when focused */
+}

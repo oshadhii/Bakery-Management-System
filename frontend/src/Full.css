@@ -1,0 +1,1035 @@
+/*Form.js css */
+/**{
+    box-sizing:border-box;
+}*/
+
+
+.Kavidet{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 65px;
+  }
+  
+  .Kavitop-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .Kavileft-section{
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+  .Kaviextra
+  {
+    color: white;
+    background:  #C29013;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    
+    
+  }
+  .Kavisalary {
+    color: white;
+    background: #C29013;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    
+  }
+  .Kaviextra:hover{
+    background-color: #e69215;
+  }
+  .Kavisalary:hover{
+    background-color: #e69215;
+  }
+  
+  #Kaviadd{
+    color: white;
+    background: #C29013;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+    border:none;
+   
+  }
+  #Kaviadd:hover{
+    background-color: #e69215;
+  }
+  
+  
+  .Kavifm{
+    position: absolute;
+    background-color:rgba(44, 46, 46, 0.85);
+    width: 1800px;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 1;
+    margin-top:-200px;
+    
+  }
+  .Kavifm form{
+    width: 500px;
+    background-color:rgba(241, 230, 127);
+    display: flex;
+    flex-direction: column;
+    padding: 50px  40px;
+    box-shadow: 3px 3px 10px rgb(206, 204, 201);
+    border-radius: 10px;
+  
+  }
+  .Kavifm form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .Kavifm form label{
+    font-size: 18px;
+  }
+  .Kavifm form input{
+     font-size: 20px;
+     padding: 5px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: none;
+     padding: 7px;
+    
+  }
+  
+  
+  #Kavibtn{
+    background-color:   #C29013;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px ;
+    border: none;
+  
+  }
+  #Kavibtn1{
+    background-color:  #C29013;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px ;
+    border: none;
+    
+  
+  }
+  
+  
+  .Kavisearch input{
+    
+    padding: 10px;
+    width:300px;
+    margin-bottom: 5px ;
+    font-size: 20px;
+    border: 3px solid  #C29013;
+    box-shadow: 5px 5px 5px rgba(238, 236, 236, 0.5);
+  
+   
+  }
+  .Kavisearch{
+    display:inline-block;
+    justify-content:left;
+  }
+  
+  .Kaviextra{
+    color: white;
+    background:  #C29013;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 700px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border:none;
+  }
+  .Kavisalary{
+    color: white;
+    background:  #C29013;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 70px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border:none;
+  }
+  
+  .KavitableContainer {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .KavitableContainer table {
+    width: 100%; /* Set the table width to fill the container */
+    border-collapse: collapse; /* Makes sure borders collapse into one */
+    border: 1px solid #c6d315; /* Border for the table */
+  }
+  
+  .KavitableContainer table thead tr {
+    background-color: #fac02e;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  
+  .KavitableContainer table thead tr th {
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #e0a80e; /* Border for the header cells */
+  }
+  
+  .KavitableContainer table td {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #e0a80e; /* Border for the table cells */
+  }
+  
+  .KavitableContainer table tbody tr:hover {
+    background-color: #f1f1f1; /* Optional: Highlight row on hover */
+  }
+  
+  
+  #Kavibutton1{
+    background-color:  #c26813;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px ;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  #Kavibutton2{
+    background-color:  #c23c13;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px ;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+   /*workers.js css*/
+   
+   .Kaviex{
+    position: absolute;
+    background-image: url('./images/ex.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 1;
+    
+    width: 100%; /* or a specific width */
+    height: 1000px; /* or a specific height */
+    background-color: rgba(240, 248, 255, 0.8);
+    
+  }
+  .Kaviex form{
+    height:900px;
+    width: 500px;
+    background-color:rgba(241, 230, 127, 0.705);
+    display: flex;
+    flex-direction: column;
+    padding: 50px  40px;
+    box-shadow: 3px 3px 10px rgb(206, 204, 201);
+    border-radius: 5px;
+  
+  }
+  .Kaviex form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .Kaviex form label{
+    font-size: 18px;
+  }
+  .Kaviex form input{
+     font-size: 20px;
+     padding: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border-left:1px solid rgba(17, 7, 7, 0.473) ;
+     border-radius: 5px;
+     border-color: rgba(15, 6, 6, 0.473) ;
+     
+    
+  }
+  
+  #Kavibt{
+    background-color:   #C29013;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding:5px;
+  
+  }
+  #Kavibt:hover{
+    background-color: #e69215 ;
+  }
+  #Kavibt1{
+    background-color:  #C29013;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding:5px;
+  
+  }
+  #Kavibt1:hover{
+    background-color: #e69215 ;
+  }
+  .KaviAssiDate,.KaviAdminEmail{
+    display: none;
+  }
+  
+  /*Extra.js css */
+  .Kaviemail-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .Kaviemail-section label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #d18a48;
+  }
+  
+  .Kaviemail-section input {
+    padding: 10px;
+    border: 2px solid #e2a54a;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 20px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Kaviemail-section input:focus {
+    border-color: #cc993b;
+    box-shadow: 0 0 8px rgba(238, 164, 4, 0.4);
+  }
+  .Kavitopic h1{
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .KavitableContain{
+    margin-top: 70px;
+    display:flex;
+    justify-content: center;
+    border-collapse: collapse;
+    border:ipx solid #c6d315;
+    
+  }
+  
+  .KavitableContain table thead tr{
+    background-color:  #fac02e;
+    color:aliceblue;
+   
+    
+  }
+  
+  
+  .KavitableContain table thead tr th{
+       min-width: 200px;
+       padding: 15px;
+       font-size: 20px;
+       border: 1px solid #e0a80e;
+       
+  }
+  
+  .KavitableContain table td{
+    min-width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #e0a80e;
+    
+  }
+  .Kavisch input{
+    padding: 10px;
+    width:300px;
+  
+    font-size: 20px;
+    border: 3px solid  #C29013;
+    box-shadow: 5px 5px 5px rgba(238, 236, 236, 0.5);
+  }
+  
+  .Kavisch{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #Kavibut1{
+    background-color:  #c23c13;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px ;
+    border: none;
+    
+  }
+  #Kavibutt1{
+    background-color:  #d18717;
+    color: aliceblue;
+    font-weight: 50px ;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px ;
+    border: none;
+  }
+  .KaviinputDate {
+    padding: 12px 10px; /* Increase padding for better clarity */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 18px; /* Increase font size */
+    width: 200px; /* Increase width */
+    height: 50px; /* Set height for a larger field */
+    box-sizing: border-box; /* Ensures padding is included in size */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .KaviinputDate:focus {
+    border-color: #e2b94a;
+    box-shadow: 0 0 8px rgba(243, 187, 5, 0.4);
+    outline: none; /* Remove the default focus outline */
+  }
+  
+ .KaviAssiButton {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #f06c2f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .KaviAssiButton:hover {
+    background-color: #cc7c3b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /*salary.js css*/
+  
+  /* General container adjustments */
+  .Kavipayroll-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 150%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    min-height: 100vh;
+  }
+  
+  /* Header Styling */
+  .Kavipayroll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .Kavipayroll-header h3 {
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #444;
+  }
+  
+  /* Form Controls (Month, Year, Bonus Percentage) */
+  .Kavicontrols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .Kavicontrols label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .Kavicontrols select,
+  .Kavicontrols input {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .Kavicontrols select:focus,
+  .Kavicontrols input:focus {
+    border-color: #C29013;
+    outline: none;
+  }
+  
+  /* Apply Button */
+  .Kavicontrols button {
+    background-color: #c25c13;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Kavicontrols button:hover {
+    background-color: #e67a15;
+  }
+  
+  /* Table Adjustments */
+  .KaviTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .KaviTable th, .KaviTable td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .KaviTable th {
+    background-color: #F5F5F5;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .KaviTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Footer Buttons */
+  .Kavipayroll-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .Kavisubmitbtn, .Kavisavebtn {
+    padding: 12px 20px;
+    width: 48%;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #C29013;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Kavisubmitbtn:hover, .Kavisavebtn:hover {
+    background-color: #f0a331;
+  }
+  
+  /* Modal Adjustments */
+  .Kavipayroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 28, 29, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .Kavipayroll-sidebar {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 450px;
+    text-align: center;
+  }
+  
+  .Kavipayroll-sidebar h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .Kavipayroll-summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .Kavipayroll-summary h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .Kavipayroll-summary p {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #555;
+  }
+  
+  /* Sidebar Buttons */
+  .KavibtnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .Kaviapprove-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #C29013;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 45%;
+    transition: background-color 0.3s ease;
+  }
+  .Kavicancel-btn{
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c25913;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 45%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Kaviapprove-btn:hover, .Kavicancel-btn:hover {
+    background-color: #e69215;
+  }
+  
+  
+  /*Edit .css*/
+  
+  .Kaviform1 {
+    position: absolute;
+    background-color: rgba(26, 28, 29, 0.85);
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* Update Form Box */
+  .Kaviupdate {
+    padding: 30px;
+    background-color: rgba(235, 226, 149, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin-top: -50px;
+  }
+  
+  /* Update Form Title */
+  .Kaviupdate h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #1a1c1d;
+  }
+  
+  /* Input Fields */
+  .Kaviupdate input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .Kaviupdate input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button Styles */
+  
+  .Kavibtn-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* Button Styles */
+  #Kavibttn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #c25913;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  
+  #Kavibttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #C29013;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+  }
+  
+  
+  #Kavibttn:hover {
+    background-color: #e69215;
+  }
+  
+  
+  #Kavibttn1:hover {
+    background-color: #e4945b;
+  }
+  
+  /* Adjustments for small screens */
+  /*@media (max-width: 768px) {
+    .update {
+      width: 90%;
+      padding: 20px;
+    }
+    
+    .btn-container {
+      flex-direction: column;
+    }*/
+    
+    
+  
+  
+  
+  
+  /*display.js*/
+  
+  
+  
+  /* Header styling */
+  .Kaviemployee {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #080606;
+    margin-top: 60px;
+  }
+  
+  /* Button container styling */
+  .Kavibuttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button styling */
+  .Kavinew {
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    background-color: #cc8809;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .Kaviextra1 ,.Kavisalary1{
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    background-color: #cc8809;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Kavinew:hover,.Kaviextra1:hover,.Kavisalary1:hover {
+    background-color: #e2b212;
+  }
+  .Kavicustom-hr {
+    border: none; /* Remove the default border */
+    border-top: 4px solid #cc8809; /* Change the color and thickness */
+    width: 100%; /* Adjust the width if needed */
+    margin: 20px 0; /* Adjust the spacing around the line */
+  }
+  
+  /* Content container styling */
+  .Kavicontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: rgb(236, 199, 120);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    height:700px;
+  }
+  
+  /* Image styling */
+  .Kaviimgdiv {
+    flex: 1;
+    margin-right: 2rem;
+    margin-left:2rem ;
+    
+  }
+  
+  .Kaviimg {
+    max-width: 650px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Paragraph styling */
+  .Kavipara {
+    flex: 2;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #0f0d0d;
+  }
+  
+  .Kavipara p {
+    margin: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .Kavicontent {
+        flex-direction: column;
+        padding: 1rem;
+    }
+  
+    .Kaviimgdiv {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+  
+    .Kaviemployee {
+        font-size: 2rem;
+        margin: 1.5rem 0;
+    }
+  
+    .Kavinew,.Kaviextra1,.Kavisalary1 {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+  }
+  
+  /*registration.js*/
+  /* Styling the container */
+  .Kaviregistration-container {
+    position: absolute;
+    background-color: #282c2c; /* Solid color without transparency */
+    width: 1800px;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 1;
+    margin-top: -200px;
+    
+  }
+  
+  /* Styling the box around the buttons */
+  .Kaviregistration-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(228, 202, 130, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 200%;
+    height: 20%;
+    margin-bottom: 300px;
+  }
+  
+  /* Heading style */
+  .Kaviregistration-box h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0e0d0d;
+  }
+  
+  /* Styling buttons */
+  .Kaviregistration-btn {
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .KaviRegistration{
+    margin-top: 50px;
+  }
+  #permanent {
+    background-color: #e7810c;
+    color: white;
+    
+  
+  }
+  
+  #permanent:hover {
+    background-color: #dab926;
+  }
+  
+  #temporary {
+    background-color: #e2b147;
+    color: white;
+  }
+  
+  #temporary:hover {
+    background-color: #ebb057;
+  }
+  
+  
+  
+  
+  

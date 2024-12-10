@@ -1,0 +1,206 @@
+.Corder {
+  /*text-align: center;*/
+  background-image: url('./images/orderimg2.jpg');
+  /*background-size: cover;
+  background-position: center;
+  background-attachment: fixed;*/
+  /*background-color:rgb(194, 144, 19,0.4); /* Red color with 50% opacity */
+  background-blend-mode: overlay;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+.Corder::before{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/*.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/orderimg2.webp');
+  background-size: cover;
+  
+  filter: blur(1px); 
+  z-index: -1; 
+}*/
+
+
+
+.centered-heading {
+  margin-bottom: 20px; 
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 30px;
+  color: #7e4e05;
+}
+.content-wholesale {
+  padding-top: 80px;
+  max-width: 1000px;
+  z-index: 1;
+  margin: 0 ;
+  padding-left: 70px;
+  
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: 20px;
+  background-color: rgba(138, 102, 12, 0.8);
+  /*background-color: rgba(255, 211, 117, 0.815);*/
+  /*background-color: antiquewhite;*/
+ /* background-color: rgba(40, 44, 52, 1.9);*/
+  width: 1140px;
+  height: 900px;
+  margin-left: 50px;
+  padding: 50px;
+  color: white;
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: aliceblue;
+  color: white;
+  
+}
+.order-form .select-bar{
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.order-form input {
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3f1e9fd
+}
+.product .number{
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3f1e9fd
+}
+input.autofillC {
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;  
+  color: #f3efef; 
+       /* Rounded corners */
+}
+
+input.autofillC:focus {
+  outline: none;               /* No focus outline */
+  background-color: #ffffff;   /* Slightly darker background on focus */
+}
+
+input.autofillC[readonly] {
+  background-color: #fac84ba8;   /* Lighter background for read-only fields  #ffd375 */
+  color: #ffffff;                 /* Lighter text color for read-only fields */
+}
+.CustomerID{
+  color: azure;
+}
+.product-row{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 70px; 
+  align-items: center;
+}
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px; 
+  align-items: center; 
+}
+.addbtn {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #fac031; 
+  color: rgb(22, 21, 21); 
+  border: none; 
+  cursor: pointer; 
+  font-size: 28px; 
+}
+.removebtn{
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #fac031; 
+  color: rgb(22, 21, 21); 
+  border: none; 
+  cursor: pointer; 
+  font-size:  30px; 
+}
+
+.Comorderbtn {
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 150px;
+  margin-left: 500px;
+  font-size: large;
+}
+
+.Comorderbtn:hover {
+  background-color: #ff9143;
+}
+
+.date-picker {
+  margin-top: 20px;
+}
+
+.date-picker label {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+}
+
+.react-datepicker__input-container input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}

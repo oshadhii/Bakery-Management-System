@@ -1,0 +1,112 @@
+
+.das-delivery-management-page {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 20px;
+}
+
+
+.das-delivery-image {
+  width: 60%; 
+  height: auto; 
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.highlight {
+  justify-content: center;
+  font-size: 3em; 
+  font-weight: bold; 
+  color: #000000; 
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3); 
+  background-color: blanchedalmond;;
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
+  margin: 10px 0 1px; 
+}
+
+
+.das-content-box {
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%; 
+  height: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 0; 
+}
+
+
+
+
+.das-content-box h2 {
+  font-size: 2em;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.das-content-box p {
+  font-size: 1.2em;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.das-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.das-nav-button {
+  background-color: #f4c542; 
+  color: white; 
+  font-size: 1.5em; 
+  padding: 15px 25px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  width: 1000px; 
+  max-width: 800px; 
+  height: 50px;
+  transition: background-color 0.3s ease; 
+}
+
+.das-nav-button:hover {
+  background-color: #ffec8b;
+}
+
+
+@media (max-width: 768px) {
+  .das-delivery-image {
+    width: 80%;
+  }
+
+  .das-content-box {
+    width: 90%; 
+  }
+
+  .das-nav-button {
+    width: 90%;
+  }
+}
+
+
+.highlight:hover {
+  
+  background-color: burlywood; 
+  transition: all 0.3s ease-in-out; 
+}

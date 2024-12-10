@@ -1,0 +1,122 @@
+/* Namespace for Admin Dashboard styles */
+.admin-dashboard-page {
+    text-align: center;
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; /* Ensure full width */
+    margin: 0; /* Remove any automatic margins */
+    box-sizing: border-box;
+  }
+  
+  .admin-dashboard-page-header {
+    background-color: #ffc400; /* Vibrant coral for the header */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 90px auto 40px; /* Center the header */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .admin-dashboard-page-header h1 {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    margin: 0;
+  }
+  
+  .admin-dashboard-page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px; /* Set a max width for the grid */
+    width: 100%;
+    /*margin: 0 auto;  Center the grid */
+    margin: 200px auto 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  .admin-dashboard-page-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard-page-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced hover effect */
+  }
+  
+  .admin-dashboard-page-card-content h2 {
+    font-size: 1.6rem;
+    color: #f68105; /* Matching header color for consistency */
+    margin-bottom: 15px;
+  }
+  
+  .admin-dashboard-page-card-content p {
+    font-size: 1rem;
+    color: #4a4a4a; /* Dark grey for better readability */
+  }
+  
+  .admin-dashboard-page-card:hover h2 {
+    color: #007bff; /* Blue color on hover for card titles */
+  }
+  
+  footer {
+    background: linear-gradient(to top right, #fac031, rgb(223, 213, 213)); /* Background color */
+    padding: 5px; /* Padding around the footer */
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.Admain_footer {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Align items at the start */
+    flex-wrap: wrap;
+    margin: 0 auto; /* Allow items to wrap to the next line */
+}
+
+.Adfooter_tag {
+    flex: 1; /* Allow equal space for each footer tag */
+    min-width: 265px; /* Minimum width for each tag */
+    margin: 20px; /* Margin around each tag */
+    padding-right: 10px;
+}
+
+.Adfooter_tag h2 {
+    text-align: start;
+    margin-bottom: 5px; /* Space below the heading */
+}
+
+.Adfooter_tag p {
+    margin: 5px 10px; /* Space between paragraphs */
+    text-align: start;
+}
+
+.Adfooter_tag a {
+    margin-right: 20px; /* Space between social media icons */
+    color: #333; /* Color of the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 40px; /* Size of the icons */
+    align-items: first baseline;
+    align-items: flex-start;
+    padding-left: 0cap;
+   
+    
+}
+
+.Adfooter_tag a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+  

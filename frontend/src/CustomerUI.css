@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.customercontainer {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.customerc-m-s {
+    height: 90%;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #3d3939;
+    border-radius: 10px;
+    background: rgba(186, 129, 30, 0.8);
+}
+
+.customerc-m-s h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.customerc-m-s img {
+    width: 400px;
+}
+
+.customerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customerp {
+    width: 60%;
+    margin-top: 70px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.Customerbody{
+    display: flex;
+  }
+
+.Customer-btn h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+  
+.Customer-btn{
+    width: 300px;
+    height: 300px;
+    background-color: #fdfdfc;
+    /* background: rgba(174, 120, 28, 0.8); */
+    margin-left: 150px;
+    margin-top: 100px;
+    border-width: 7px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #aaa;
+    perspective: 1000px;
+}
+  
+.Customer-btn button{
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #e66525;
+    font-size: 18px;
+    margin-top: 100px;
+    width: 150px;
+    height: 40px;
+    margin-left: 75px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+.Customer-btn button:hover{
+    color: #ffffff;
+    background-color: #db9d46;
+}

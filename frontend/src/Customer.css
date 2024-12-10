@@ -1,0 +1,89 @@
+/* Customer.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bakery_bg.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+.customerCus {
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.customerdet {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px; 
+}
+
+.customerfm {
+    background-color: rgba(255, 255, 255, 0.9); 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(66, 62, 62, 0.1);
+    max-width: 400px;
+}
+
+.Customer form h3 {
+    color: #cb9715;
+    text-align: center;
+}
+
+.Customer label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.Customer input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.customersubmit-button, #add {
+    background-color: #cb9715;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.customersubmit-button:hover, #add:hover {
+    background-color: #563f04;
+}
+
+.customer-details {
+    background-color: rgba(112, 92, 92, 0.9); 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.customer-details h3 {
+    color: #dba00a;
+    text-align: center;
+}
+
+.customer-details p {
+    color: #ede9e9;
+    margin: 5px 0;
+}

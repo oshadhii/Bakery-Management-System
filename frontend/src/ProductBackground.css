@@ -1,0 +1,688 @@
+body{
+  background-image: url("./images/background.jpg");
+}
+
+.Productcontainer {
+  display: flex;
+  width: 100%;
+}
+
+.Productsidebar {
+  width: 30%;
+  background-color: #ffb400;
+  height: 750px;
+  padding: 20px;
+  color: white;
+}
+
+.Productsidebar-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.Productsidebar h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.Productsidebar-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Productsidebar-btn:hover {
+  background-color: #ffa800;
+}
+
+.Product-main-content {
+  width: 80%;
+  padding: 20px;
+}
+
+.Productheader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Product-search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1 1 auto;
+}
+
+.Product-header-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #ffb400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+
+.Product-header-btn:hover {
+  background-color: #ffa800;
+}
+
+.Product-table-container {
+  overflow-x: auto;
+}
+
+.Product-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.Product-table-container thead {
+  background-color: #f2f2f2;
+}
+
+.Product-table-container th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Product-edit-btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Product-edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.Product-delete-btn {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Product-delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.Product-modal {
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.Product-modal-header {
+  background-color: #ffb400;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Product-modal-header h2 {
+  color: white;
+  margin: 0;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.close-btn link{
+  text-decoration: none;
+}
+
+.Product-modal-body {
+  padding: 30px 20px;
+}
+
+.Product-modal-body h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.App{
+  background-color: #fff;
+}
+
+.Productform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Product-form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Product-form-group label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.Product-form-group input,
+.Product-form-group textarea,
+.Product-form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.Product-form-group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.Product-save-btn {
+  padding: 10px 20px;
+  background-color: #ffaa00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.Product-sav-btn {
+  padding: 10px 20px;
+  background-color: #b98722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.Product-sav-btn:hover {
+  background-color: #ddb70d;
+}
+
+.Product-save-btn:hover {
+  background-color: #ddb70d;
+}
+
+
+.request-staff-modal {
+  width: 400px;
+  background-color: #ffb400;
+  position: relative;
+  margin-left: 500px;margin-top: 100px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333;
+}
+
+.request-staff-modal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.ingredient-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.request-form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.request-full-width {
+  flex: 1 1 100%;
+}
+
+.request-form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.request-form-group input,
+.request-form-group textarea {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+}
+
+.request-form-group textarea {
+  resize: none;
+  height: 80px;
+}
+
+.request-submit-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.request-submit-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* In styles.css */
+.no-underline {
+  text-decoration: none;
+  color: inherit; /* This ensures the link color matches the surrounding text */
+}
+
+.ingredient-request-container {
+  width: 700px;
+  height: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: #ffb400;
+}
+
+.ingredient-request-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ingredient-item label {
+  font-size: 16px;
+  color: black;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+.ingredient-item input {
+  flex: 1;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ingredient-item span {
+  flex: 1;
+  color: #555;
+  text-align: right;
+}
+
+.product-total-cost {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Product-submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Product-submit-btn:hover {
+  background-color: #45a049;
+}
+
+.Product-email-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Product-email-section label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.Product-email-section input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.Product-email-section input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.Product-submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Product-submit-btn:hover {
+  background-color: #45a049;
+}
+
+.product-generate-report-btngenerate-report-btn {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-generate-report-btn:hover {
+  background-color: #007B9A;
+}
+
+
+@media (max-width: 768px) {
+  .form-group {
+      flex: 1 1 100%;
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .Product-sidebar {
+      width: 30%;
+  }
+
+  .Product-main-content {
+      width: 70%;
+  }
+
+  .Product-header {
+      flex-direction: column;
+  }
+
+  .Product-header-btn, .search-bar {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  .Product-table-container {
+      width: 100%;
+      overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Product-sidebar {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .Product-sidebar-btn {
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .Product-main-content {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .Product-header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .Product-header-btn, .search-bar {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  table {
+      font-size: 14px;
+  }
+
+  th, td {
+      padding: 10px;
+  }
+
+  .edit-btn, .delete-btn {
+      font-size: 12px;
+      padding: 5px;
+  }
+}
+
+
+
+.ProductcontainerUpdate{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+.ProductcontainerUpdate .product-update-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.ProductcontainerUpdate .product-update-form h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.ProductcontainerUpdate .product-update-form-group {
+  margin-bottom: 20px;
+}
+
+.ProductcontainerUpdate .product-update-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.product-entry {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.product-entry input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  color: #495057;
+}
+
+.product-entry input::placeholder {
+  color: #6c757d;
+}
+
+
+/* Table Styles */
+.production-table {
+  margin-top: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.production-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.production-table th, 
+.production-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 14px;
+  color: #495057;
+}
+
+.production-table th {
+  background-color: #343a40;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.production-table td {
+  vertical-align: top;
+}
+
+.production-table tr:last-child td {
+  border-bottom: none;
+}
+
+.production-table strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0bb0c;
+}
+
+/* Headings */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .product-entry {
+      flex-direction: column;
+  }
+
+  .production-table th, 
+  .production-table td {
+      padding: 8px;
+      font-size: 12px;
+  }
+}
+
+/* Styling the ingredient select dropdown */
+#ingredient-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding hover effect to the dropdown */
+#ingredient-select:hover {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+/* Adding focus effect */
+#ingredient-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling the add ingredient button */
+.add-ingredient-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Adding hover effect to the add button */
+.add-ingredient-btn:hover {
+  background-color: #0056b3;
+}

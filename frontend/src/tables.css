@@ -1,0 +1,473 @@
+/* body{
+    background-color:#fffcfc;
+    
+} */
+
+/* table page pura yanne nathiwenna  */
+/* table {
+    width: 70%;
+    border-collapse:inherit;
+    border-radius: 3px;
+    
+}
+
+th {
+    background-color:rgb(233, 167, 86); 
+    color: rgb(0, 0, 0);             
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #040404;
+}
+.tableheading{
+    color:#855e0b;
+    font-size: 20px;
+}
+tbody tr {
+    height: 50px; 
+    border-bottom: 1px solid #040404;
+  } */
+
+  .salestables {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin: 20px auto;        
+    width: 100%;              
+}
+
+.salestables table {
+    width: 70%;
+    border-collapse: collapse;  /* Ensures no double borders */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden;           /* Clips rounded corners for table */
+}
+
+.salestables th {
+    background-color: rgb(233, 167, 86); /* Header background */
+    color: rgb(0, 0, 0);                 /* Header text color */
+    padding: 15px;                       /* Increased padding */
+    text-align: left;                    /* Align text to the left */
+    border-bottom: 2px solid #040404;    /* Thicker border for header */
+    font-size: 18px;                     /* Larger font for headers */
+}
+
+.salestables .tableheading {
+    color: #855e0b;
+    font-size: 22px;          /* Slightly larger heading */
+    font-weight: bold;        /* Bold the table heading */
+    text-align: center;       /* Center align the heading */
+    margin-bottom: 20px;      /* Space below heading */
+}
+
+.salestables tbody tr {
+    height: 50px;             /* Consistent row height */
+    border-bottom: 1px solid #040404; /* Bottom border for rows */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.salestables tbody tr:hover {
+    background-color: rgba(233, 167, 86, 0.1); /* Subtle row hover effect */
+}
+
+.salestables td {
+    padding: 10px;            /* Comfortable cell padding */
+    color: #333;              /* Darker text for readability */
+}
+
+.salestables tbody tr:last-child {
+    border-bottom: none;      /* Remove border from last row */
+}
+
+ 
+
+.seditbutton,
+.sdeletebutton {
+  padding: 10px 20px; /* Comfortable padding */
+  border: none; /* No border for a clean look */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Font size for readability */
+  font-weight: bold; /* Bold text for emphasis */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.seditbutton {
+  background-color: #4CAF50; /* Green background for Update */
+  color: white; /* White text color */
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2); /* Subtle shadow for depth */
+}
+
+.seditbutton:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.sdeletebutton {
+  background-color: #f44336; /* Red background for Delete */
+  color: white; /* White text color */
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.2); /* Subtle shadow for depth */
+}
+
+.sdeletebutton:hover {
+  background-color: #e53935; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+
+.table1 {
+    width: 100%; /* Ensure the container takes full width */
+    text-align: center; /* Center the content inside the container */
+   
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.table1 table {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Keep table content left-aligned (optional) */
+}
+
+.table1 table th {
+    text-align: center; /* Center the table heading text */
+}
+.table4 {
+    border: 1px solid #993535;
+}
+.table2 {
+    width: 100%; /* Ensure the container takes full width */
+    text-align: center; /* Center the content inside the container */
+   
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.table2 table {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Keep table content left-aligned (optional) */
+}
+
+.table2 table th {
+    text-align: center; /* Center the table heading text */
+}
+.table3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the content inside the container */
+}
+
+.table3 table {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Keep table content left-aligned (optional) */
+}
+
+.table3 table th {
+    text-align: center; /* Center the table heading text */
+}
+
+.table4 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the content inside the container */
+}
+
+.table4 table {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Keep table content left-aligned (optional) */
+}
+
+.table4 table th {
+    text-align: center; /* Center the table heading text */
+}
+.table5 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the content inside the container */
+}
+
+.table5 table {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Keep table content left-aligned (optional) */
+}
+
+.table5 table th {
+    text-align: center; /* Center the table heading text */
+}
+
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  } */
+  
+.table1  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+  }
+
+  .table2  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .table3  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .table4  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .table5  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+
+/*
+
+
+
+
+
+
+search bar eke
+
+
+
+
+
+*/
+
+/* Container for the search bar */
+.shehasearch-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+    
+}
+
+/* Search input field */
+.shehasearch-input {
+    width: 100%;
+    padding: 12px 45px 12px 20px; /* Room for the search icon */
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus state */
+.shehasearch-input:focus {
+    border-color: #555; /* A darker shade to highlight focus */
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Search icon
+.search-container .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+} */
+
+/* .search-container .search-icon:hover {
+    color: #e51515; /* Slightly darker color on hover }*/
+ 
+
+/* Placeholder color adjustment */
+/* .shehasearch-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+} */
+
+/* Transition for input field when focused */
+/* .search-input:focus::placeholder {
+    color: transparent; /* Hide the placeholder text when input is focused 
+
+/* Optional: Add additional styling for better responsive design */
+/* @media (max-width: 768px) {
+    .search-container {
+        max-width: 100%; /* Make search bar take full width on smaller screens 
+    }
+*/
+
+
+
+
+
+
+
+.totals-card {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px 0; /* Margin for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.totals-card h3 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.totals-item {
+    margin: 10px 0; /* Space between items */
+    font-size: 18px; /* Larger font size for readability */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+
+/*
+    production*/
+
+.prsearch {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Search container */
+.search-container {
+    position: relative;
+    width: 70%;
+    height: 40px;
+    margin-bottom: -130px;
+    padding-bottom: 80px;
+    margin: 10px auto;
+    margin-left:230px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Search input */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Search icon */
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 1.2rem;
+}
+
+/*
+style card css
+*/
+
+/*Production details ekee date eka search krna ekaaaaaaaa*/
+
+.prsearch-container .search{
+    width: 370px;
+    height: 30px;
+
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .card p {
+    font-size: 1.5em;
+    color: #28a745;
+  }
+
+
+
+  /* table tika
+  
+  
+  */
+
+  
+
+
+
+    /* 
+  search bar eke 
+  */
+  
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }  

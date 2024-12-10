@@ -1,0 +1,247 @@
+/* Container for the Order Dashboard */
+.order-dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Heading Style */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Search Container Styles */
+.search-container-WO {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-top: 40px;
+  padding: 10px;
+  
+}
+
+/* Search Input Field */
+.search-input-WO {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+  outline: none;
+  margin-right: 10px
+}
+
+/* Search Button Styles */
+.search-button-WO {
+  padding: 10px 20px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #e2ac17;
+  color: white;
+  border: 1px solid #e2ac17;
+  border-radius: 25px 25px 25px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button-WO:hover {
+  background-color:  #fac031;
+}
+
+/* Adjust Search Button and Input on Small Screens */
+@media (max-width: 768px) {
+  .search-container-WO {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .search-input-WO {
+      width: 100%;
+      margin-bottom: 0px;
+      border-radius: 5px;
+  }
+
+  .search-button-WO {
+      border-radius: 5px;
+  }
+}
+
+/* Table Styles */
+.ordertable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header Styling */
+.ordertbheading {
+  /*background-color: #f8f8f8;*/
+  background-color: #fac031;
+  font-weight: bold;
+  color: #555;
+}
+
+.ordertbtr {
+  background-color:  #fac031;
+}
+
+.orderth, 
+.orderbdy td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.orderth1{
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #333;
+  margin-left: 0%;
+}
+/* Table Body Row Styling */
+.ordertrbdy {
+  background-color: #fff;
+}
+
+.ordertable tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Product List Styling */
+.orderbdy ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.orderbdy ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.orderbdy ul li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ordertable, 
+  .ordertable thead, 
+  .ordertable tbody, 
+  .ordertable th, 
+  .ordertable td, 
+  .ordertable tr { 
+    display: block; 
+  }
+
+  .ordertbheading { 
+    display: none;
+  }
+
+  .ordertable td { 
+    position: relative; 
+    padding-left: 50%; 
+    text-align: right;
+  }
+
+  .ordertable td::before { 
+    content: attr(data-label);
+    position: absolute; 
+    left: 10px;
+    text-align: left; 
+    font-weight: bold;
+  }
+
+  .ordertable tr { 
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .ordertable tbody tr:nth-child(odd) {
+    background-color: transparent;
+  }
+}
+
+
+/* Action Buttons Container */
+.orderth, .ordertbtr th, .ordertrbdy td {
+text-align: center;
+}
+
+/* Action Buttons Style */
+.action-button {
+padding: 6px 12px;
+margin: 4px;
+font-size: 0.9rem;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+transition: background-color 0.3s ease;
+}
+
+/* Update Button Style */
+.update-button {
+background-color: #c29013;
+color: white;
+
+}
+
+.update-button:hover {
+background-color: #c29013;
+}
+
+/* Delete Button Style */
+.delete-button {
+background-color: #dc3545;
+color: white;
+width: 70px;
+}
+
+.delete-button:hover {
+background-color: #c82333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+.action-button {
+    margin: 5px 0;
+    width: 100%;
+}
+}
+
+
+/*online order db css*/
+.report-container {
+display: flex;
+justify-content: left; /* Center the button horizontally */
+margin: 20px 0; /* Add some margin for spacing */
+}
+
+/* Styling for the generate report button */
+.generate-report-button {
+background-color:#c29013; /* Green background */
+color: white; /* White text */
+padding: 12px 24px; /* Padding for the button */
+font-size: 16px; /* Font size */
+border: none; /* Remove default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: background-color 0.3s ease; 
+margin-left:20px;/* Smooth background color transition */
+}
+
+.generate-report-button:hover {
+background-color: #171d18; /* Darker green on hover */
+}
+
+.generate-report-button:active {
+background-color: #2d312d; /* Even darker green on click */
+transform: scale(0.98); /* Slightly reduce size on click */
+}

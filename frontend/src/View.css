@@ -1,0 +1,110 @@
+.suppliercontainer1 {
+    width: 95%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.suppliercontainer1 h3 {
+    margin-left: 650px;
+    font-size: 30px;
+}
+
+.supplierTable table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 0 10px;
+}
+
+.supplierTable table, th, td {
+    border: 1px solid #ddd;
+}
+
+.supplierTable th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.supplierTable th {
+    background-color: #ae781c;
+}
+
+.supplieredit {
+    font-size: 14px;
+    background-color: #ddcd22;
+    color: #fff;
+    border: none;
+    width: 70px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.supplieredit:hover {
+    background-color: #ecef7b;
+}
+
+.supplierdelete  {
+    font-size: 14px;
+    background-color: #e66525;
+    color: #fff;
+    border: none;
+    width: 70px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.supplierdelete:hover {
+    background-color: #db9d46;
+}
+
+.supplieraddbtn {
+    font-size: 14px;
+    background-color: #ae781c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.supplieraddbtn:hover {
+    background-color: #ded13e;
+}
+
+.suppliersearch-bar {
+    width: 25%;            
+    padding: 10px;
+    font-size: 16px;       
+    border: 1px solid #ccc; 
+    border-color: #f5e210;    
+    border-radius: 20px;         
+    outline: none;  
+    margin-left: 100px;           
+    margin-bottom: 20px;        
+    transition: border-color 0.3s ease;  
+  }
+  
+  .suppliersearch-bar:focus {
+    border-color: #007bff;     
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); 
+  }
+  
+  .suppliertable-wrapper {
+    margin-top: 20px;
+  }
+  
+.supplierid {
+    font-size: 0px;
+}

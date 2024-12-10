@@ -1,0 +1,71 @@
+/* Form styles */
+.customerinquiry-form {
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 500px;
+  background-color: #f4ebeba9;
+  padding:10px;
+  margin-left: 300px;
+
+}
+
+.customerinquiry-form h2 {
+  text-align: center;
+  color: #783215;
+}
+
+.customerinquiry-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.customerinquiry-form input,
+.customerinquiry-form select,
+.customerinquiry-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.customerinquiry-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.customerinquiry-form button {
+  padding: 10px 20px;
+  background-color: #9b7d12;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.customerinquiry-form button:hover {
+  background-color: #9b7d12;
+}
+
+/* Header styles */
+.customerinquiry-body h1 {
+  text-align: center;
+  color: #efe9e9;
+}
+
+/* Specific styles for labels */
+.iName,
+.iemail,
+.iphone,
+.iresponse-method,
+.imessage {
+  margin-top: 10px;
+}
+#iName{
+  width: 200px;
+}

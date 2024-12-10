@@ -1,0 +1,88 @@
+.OrderReport .Order-main {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.OrderReport h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.OrderReport .Order-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.OrderReport .Order-content h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderReport .Order-content label {
+    font-weight: bold;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 0;
+    text-align: center;
+    width: 50%;
+}
+
+.OrderReport .dateLabel {
+    font-weight: bold;
+}
+
+.OrderReport .ingredientReceived {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.OrderReport .ingredientReceived input[type="checkbox"] {
+    margin-left: 10px;
+    transform: scale(1.2); /* Makes the checkbox a bit larger */
+}
+
+.OrderReport .Order_backBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.OrderReport .Order_backBtn:hover {
+    background-color: #2980b9;
+}
+
+.OrderReport .searchOrder {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 255px;
+    border: 2px solid #1f1701;
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,0 +1,123 @@
+.ProductReport .product-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ProductReport .product-main h1{
+    margin-top: 80px;
+    color: black;
+}
+
+.ProductReport .product-content h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductReport .product-content label {
+    font-weight: bold;
+    color: #555;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    text-align: center;
+}
+
+.ProductReport .dateLabel{
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductReport .dateLabel label{
+    font-weight: bold;
+    color: #555;
+    margin-right: 620px;
+    border-bottom: 1px solid #ddd;
+    width: 15%;
+    text-align: left;
+}
+
+
+.ProductReport .backBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; 
+    color: #fff;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 300px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.ProductReport .backBtn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px); 
+}
+
+.ProductReport .backBtn:active {
+    background-color: #1c6a96; /* Even darker color when button is clicked */
+    transform: translateY(0); /* Return to original position */
+}
+
+.ProductReport .ingredientReceived {
+
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 620px;
+}
+
+.ProductReport input[type="checkbox"] {
+    transform: scale(1.2); /* Adjust the size of the checkbox */
+    margin-left: 20px;
+}
+
+
+.ProductReport .searchProduct{
+    width:400px;
+    height:30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 565px;
+    border: 2px solid #1f1701;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .ProductReport .stockDeleteBtn {
+    background-color: #f44336; 
+    color: white;              
+    border: none;              
+    padding: 10px 20px;        
+    text-align: center;     
+    text-decoration: none;    
+    display: inline-block;   
+    font-size: 16px;          
+    margin: 4px 2px;         
+    cursor: pointer;         
+    border-radius: 5px;      
+    transition-duration: 0.3s;
+    margin-left: 790px;
+}
+
+.ProductReport .stockDeleteBtn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+    color: white;              /* Keep white text */
+}

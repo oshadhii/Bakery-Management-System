@@ -1,0 +1,162 @@
+.iconnotify {
+  position: absolute;
+  top: 70px;  /* Adjust as needed */
+  right: 20px;  /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconnotify .iconnotifyimg {
+  width: 30px;  /* Adjust size */
+  height: 30px;  /* Adjust size */
+}
+
+.iconnotify .totalQuantityOnline {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;  /* Position the badge */
+  right: -5px;
+}
+
+
+
+/* General Styles */
+.Online-ordeDB h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Search Container Styles */
+.search-container-OB{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-top: 40px;
+  padding: 10px;
+  
+}
+
+.search-input-online {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+  outline: none;
+  margin-right: 10px
+}
+.search-button-OB {
+  padding: 10px 20px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #e2ac17;
+  color: white;
+  border: 1px solid #e2ac17;
+  border-radius: 25px 25px 25px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search-button-OB:hover {
+  background-color:  #fac031;
+}
+
+/* Adjust Search Button and Input on Small Screens */
+@media (max-width: 768px) {
+  .search-container-OB {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .search-input-online{
+      width: 100%;
+      margin-bottom: 0px;
+      border-radius: 5px;
+  }
+
+  .search-button-OB{
+      border-radius: 5px;
+  }
+}
+
+/* Table Styles */
+.ordertb{
+  margin-top: 10px;
+}
+.online-ordertable {
+width: 100%;
+border-collapse: collapse;
+margin: 0px 0;
+
+}
+
+.online-ordertbheading th,
+.online_orderbdy td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+.online-ordertbheading {
+background-color: #f4f4f4;
+}
+
+.online-ordertbtr th {
+font-weight: bold;
+}
+
+.online-orderth {
+font-weight: bold;
+text-align: center;
+}
+
+.online-orderthpp {
+text-align: center;
+}
+
+.online_orderbdy {
+font-size: 14px;
+}
+
+.online_ordertrbdy:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.online_ordertrbdy:hover {
+background-color: #e2e2e2;
+}
+
+
+.report-container {
+display: flex;
+justify-content: left; /* Center the button horizontally */
+margin: 20px 0; /* Add some margin for spacing */
+}
+
+/* Styling for the generate report button */
+.generate-report-button {
+background-color:#c29013; /* Green background */
+color: white; /* White text */
+padding: 12px 24px; /* Padding for the button */
+font-size: 16px; /* Font size */
+border: none; /* Remove default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: background-color 0.3s ease; 
+margin-left:20px;/* Smooth background color transition */
+}
+
+.generate-report-button:hover {
+background-color: #b3870e; /* Darker green on hover */
+}
+
+.generate-report-button:active {
+background-color: #b3870e; /* Even darker green on click */
+transform: scale(0.98); /* Slightly reduce size on click */
+}
+
